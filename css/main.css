@@ -1,0 +1,27 @@
+@import url('./base.css');
+@import url('./header.css');
+@import url('./content.css');
+
+.bg {
+    z-index: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-color: rgb(172, 47, 111);
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.bg::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .3);
+}

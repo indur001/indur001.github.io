@@ -1,0 +1,31 @@
+body {
+    background: #e3e3e3;
+    font-family: Microsoft Yahei, "微软雅黑", "Helvetica Neue", Helvetica, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+    font-size: 16px;
+}
+
+/* ==================样式清理==================== */
+ul {
+    margin: 0;
+    list-style: none;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+/*  =================公共样式================ */
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
